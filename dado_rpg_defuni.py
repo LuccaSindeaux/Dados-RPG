@@ -21,8 +21,6 @@ dado12=[]
 dado20=[]
 dado100=[]
 
-print('É o git gurizada.')
-
 
 def dados():
     while True:

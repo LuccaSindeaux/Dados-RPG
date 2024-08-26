@@ -13,13 +13,7 @@ opcoes='''
 
 import random
 
-dado4=[]
-dado6=[]
-dado8=[]
-dado10=[]
-dado12=[]
-dado20=[]
-dado100=[]
+rolagens=[]
 
 
 def d4():
@@ -30,10 +24,10 @@ def d4():
         if rep == numrol:
             break
         rol=random.randint(1,4)
-        dado4.append(rol)
+        rolagens.append(rol)
         rep+=1
     print(dado4)
-    dado4.clear()
+    rolagens.clear()
 
 def d6():
     numrol=int(input('Quantos D6 serão rolados? '))
@@ -43,10 +37,10 @@ def d6():
         if rep == numrol:
             break
         rol=random.randint(1,6)
-        dado6.append(rol)
+        rolagens.append(rol)
         rep+=1
     print(dado6)
-    dado6.clear()
+    rolagens.clear()
 
 def d8():
     numrol=int(input('Quantos D8 serão rolados? '))
@@ -56,10 +50,10 @@ def d8():
         if rep == numrol:
             break
         rol=random.randint(1,8)
-        dado8.append(rol)
+        rolagens.append(rol)
         rep+=1
     print(dado8)
-    dado8.clear()
+    rolagens.clear()
 
 def d10():
     numrol=int(input('Quantos D10 serão rolados? '))
@@ -69,10 +63,10 @@ def d10():
         if rep == numrol:
             break
         rol=random.randint(1,10)
-        dado10.append(rol)
+        rolagens.append(rol)
         rep+=1
     print(dado10)
-    dado10.clear()
+    rolagens.clear()
 
 def d12():
     numrol=int(input('Quantos D12 serão rolados? '))
@@ -82,10 +76,10 @@ def d12():
         if rep == numrol:
             break
         rol=random.randint(1,12)
-        dado12.append(rol)
+        rolagens.append(rol)
         rep+=1
     print(dado12)
-    dado12.clear()
+    rolagens.clear()
 
 def d20():
     numrol=int(input('Quantos D20 serão rolados? '))
@@ -95,10 +89,10 @@ def d20():
         if rep == numrol:
             break
         rol=random.randint(1,20)
-        dado20.append(rol)
+        rolagens.append(rol)
         rep+=1
     print(dado20)
-    dado20.clear()
+    rolagens.clear()
 
 def d100():
     numrol=int(input('Quantos D100 serão rolados? '))
@@ -108,10 +102,10 @@ def d100():
         if rep == numrol:
             break
         rol=random.randint(1,100)
-        dado100.append(rol)
+        rolagens.append(rol)
         rep+=1
     print(dado100)
-    dado100.clear()
+    rolagens.clear()
 
 while True:
     print(opcoes)

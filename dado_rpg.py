@@ -1,3 +1,4 @@
+
 opcoes='''
     ========================
     0 - Encerrar programa
@@ -11,7 +12,7 @@ opcoes='''
     ======================== 
 '''
 
-import random
+from random import randint
 
 rolagens=[]
 
@@ -23,10 +24,10 @@ def d4():
     while True:
         if rep == numrol:
             break
-        rol=random.randint(1,4)
+        rol=randint(1,4)
         rolagens.append(rol)
         rep+=1
-    print(dado4)
+    print(rolagens)
     rolagens.clear()
 
 def d6():
@@ -36,10 +37,10 @@ def d6():
     while True:
         if rep == numrol:
             break
-        rol=random.randint(1,6)
+        rol=randint(1,6)
         rolagens.append(rol)
         rep+=1
-    print(dado6)
+    print(rolagens)
     rolagens.clear()
 
 def d8():
@@ -49,10 +50,10 @@ def d8():
     while True:
         if rep == numrol:
             break
-        rol=random.randint(1,8)
+        rol=randint(1,8)
         rolagens.append(rol)
         rep+=1
-    print(dado8)
+    print(rolagens)
     rolagens.clear()
 
 def d10():
@@ -62,10 +63,10 @@ def d10():
     while True:
         if rep == numrol:
             break
-        rol=random.randint(1,10)
+        rol=randint(1,10)
         rolagens.append(rol)
         rep+=1
-    print(dado10)
+    print(rolagens)
     rolagens.clear()
 
 def d12():
@@ -75,10 +76,10 @@ def d12():
     while True:
         if rep == numrol:
             break
-        rol=random.randint(1,12)
+        rol=randint(1,12)
         rolagens.append(rol)
         rep+=1
-    print(dado12)
+    print(rolagens)
     rolagens.clear()
 
 def d20():
@@ -88,10 +89,10 @@ def d20():
     while True:
         if rep == numrol:
             break
-        rol=random.randint(1,20)
+        rol=randint(1,20)
         rolagens.append(rol)
         rep+=1
-    print(dado20)
+    print(rolagens)
     rolagens.clear()
 
 def d100():
@@ -101,10 +102,10 @@ def d100():
     while True:
         if rep == numrol:
             break
-        rol=random.randint(1,100)
+        rol=randint(1,100)
         rolagens.append(rol)
         rep+=1
-    print(dado100)
+    print(rolagens)
     rolagens.clear()
 
 while True:

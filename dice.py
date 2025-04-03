@@ -6,7 +6,7 @@ list_dice=[]
 menu='''
 =======================================================
             'ROLAGENM DE DADOS DE RPG: 
-    ATENÇÃO: digitar o número 0 encerrará o rpograma
+    ATENÇÃO: digitar o número 0 encerrará o programa
 =======================================================
 '''
 

@@ -14,7 +14,7 @@ opcoes2 = '''
     =============================================
 '''
 
-alt100 = print([valor*10 for valor in range(1, 11)])
+alt100 = [valor*10 for valor in range(1, 11)]
 
 
 def rolar_dado(lados):
@@ -40,6 +40,10 @@ while True:
     
     if escolha == 0:
         break
+
+    if escolha == 8:
+        print(opcoes.get(escolha))
+        continue
     
     lados = opcoes.get(escolha)
     if lados:
